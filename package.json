@@ -1,6 +1,6 @@
 {
   "name": "logging-interfaces",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generic interfaces for logging",
   "private": true,
   "license": "UNLICENSED",
@@ -13,12 +13,19 @@
     "url": "http://spoox.org"
   },
   "scripts": {
-    "build": "npm run prepublish",
     "prepublish": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "typescript": "^1.8.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sp00x/node-logging-interfaces.git"
+  },
+  "homepage": "https://github.com/sp00x/node-logging-interfaces",
+  "bugs": {
+    "url" : "https://github.com/sp00x/node-logging-interfaces/issues"
   },
   "main": "dist/logging",
   "typings": "dist/logging"  
